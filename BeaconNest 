@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BeaconNest | Find Your Way</title>
+  <meta name="description" content="BeaconNest is a device safety and location-sharing project.">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0b1020;
+      color: white;
+    }
+    header {
+      padding: 22px 7%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #28334b;
+    }
+    .logo { font-size: 24px; font-weight: bold; color: #77aaff; }
+    .hero { text-align: center; padding: 85px 20px 65px; }
+    .hero h1 { font-size: clamp(36px, 7vw, 62px); margin: 10px 0; }
+    .hero p { color: #c0c9dc; max-width: 570px; margin: 18px auto; line-height: 1.7; }
+    .button {
+      display: inline-block;
+      padding: 14px 23px;
+      background: #3878f6;
+      color: white;
+      text-decoration: none;
+      border-radius: 9px;
+      font-weight: bold;
+      margin-top: 12px;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 18px;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 25px 20px 65px;
+    }
+    .card {
+      background: #151e33;
+      border: 1px solid #28334b;
+      border-radius: 14px;
+      padding: 24px;
+    }
+    .card p, footer { color: #c0c9dc; line-height: 1.6; }
+    footer { text-align: center; padding: 25px; border-top: 1px solid #28334b; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">📍 BeaconNest</div>
+    <span>Device Safety</span>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p>WELCOME TO BEACONNEST</p>
+      <h1>Your devices.<br>Your peace of mind.</h1>
+      <p>
+        A new project exploring safer ways to locate your own
+        devices and share your location with people you trust.
+      </p>
+      <a class="button" href="#features">Explore BeaconNest</a>
+    </section>
+
+    <section class="cards" id="features">
+      <article class="card">
+        <h2>📱 Device Safety</h2>
+        <p>Our goal is to help people manage and find their own devices safely.</p>
+      </article>
+      <article class="card">
+        <h2>🛡️ Privacy First</h2>
+        <p>Location sharing should require permission and respect everyone's privacy.</p>
+      </article>
+      <article class="card">
+        <h2>🌍 Coming Soon</h2>
+        <p>BeaconNest is under development. More features will be announced as they become available.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 BeaconNest. An independent project in development.</p>
+  </footer>
+</body>
+</html>
